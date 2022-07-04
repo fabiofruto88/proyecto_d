@@ -41,15 +41,15 @@
         </div>
       </nav>
     
-    <div class="col-6" style="text-align: center; margin: auto; padding: auto; margin-top: 2rem; background-color: rgba(255, 255,255, 0.9); border-radius: 1rem;">
-        <form class="row g-3" style="margin:1rem ; padding: 1rem;">
+    <div class="col-xxl-10 col-xl-10 col-lg-11 col-md-11 col-sm-11 col-11 text-center bg-light rounded p-1 mt-3 mx-auto">
+        <form class="row g-3 m-1 p-1" >
           <label for="formGroupExampleInput" class="form-label">REGISTRO DE CLIENTE</label>
         <div class="row g-3">
-            <div class="col">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-center mx-auto">
             <label for="formGroupExampleInput" class="form-label">NOMBRES</label>
               <input type="text" class="form-control" placeholder="Nombre del producto" aria-label="ESCRIBA SU NOMBRE/S">
             </div>
-            <div class="col">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-center mx-auto">
                 <label for="formGroupExampleInput" class="form-label">APELLIDOS</label>  
               <input type="text" class="form-control" placeholder="Escriba sus apellidos" aria-label="">
             </div>
@@ -90,11 +90,16 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
           </div>
-         
+         <div class="row">
+          <div class="col-12 m-2 p-1">
+           <button class="btn btn-success btn-sm"onclick="registro_agri()">Registrarse</button>
+            <a class="btn btn-primary btn-sm" href="login.html" role="button">Regresar</a>
+          </div>
+         </div>
           
     </div>
-    <button class="btn btn-success"onclick="registro_agri()">Registrarse</button>
-    <a class="btn btn-primary" href="login.html" role="button">Regresar</a>
+
+
 </form>
 
 
